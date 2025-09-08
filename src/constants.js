@@ -206,8 +206,8 @@ export const SkillsInfo = [
         "Developed a Weather App using React.js that fetches real-time weather data from APIs and displays it with a clean, responsive interface. The app features dynamic updates, search functionality for cities, and intuitive UI, showcasing my skills in React, API integration, and frontend development.",
       image: movierecLogo,
       tags: ["HTML", "CSS", "JavaScript", "React JS", "API",],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
+      github: "https://github.com/YashKathait28/Weather-App-JS",
+      webapp: "https://weather-app-pve3abj0c-yash-kathaits-projects.vercel.app/",
     },
     {
       id: 3,
