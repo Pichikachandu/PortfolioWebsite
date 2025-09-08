@@ -93,7 +93,7 @@ const Navbar = () => {
             href="https://leetcode.com/u/yashkathait28/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-[#ebc066]"
+            className="hover:text-[#fff]"
           >
             <SiLeetcode size={24} color="#FFA116" /> 
           </a>
@@ -133,23 +133,23 @@ const Navbar = () => {
             ))}
             <div className="flex space-x-4">
               <a
-                href="https://github.com/codingmastr"
+                href="https://github.com/YashKathait28"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:text-white"
+                className="text-gray-400 hover:text-white"
               >
-                <FaGithub size={24} color="#FFA116" />
+                <FaGithub size={24} color="##e0e0e0" />
               </a>
               <a
-                href="https://www.linkedin.com/in/tarun-kaushik-553b441a4"
+                href="https://www.linkedin.com/in/yash-kathait-b2331424b/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:text-white"
+                className="text-gray-400 hover:text-white"
               >
-                <FaLinkedin size={24} />
+                <FaLinkedin size={24} color="##e0e0e0"/>
               </a>
               <a
-                href="https://leetcode.com/your-leetcode-username/"
+                href="https://leetcode.com/u/yashkathait28/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white"
