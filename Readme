@@ -1,0 +1,49 @@
+# 💼 Personal Portfolio Website
+
+A fully **responsive personal portfolio website** built with **React.js**, designed to showcase my projects, skills, and professional information. Perfect for personal branding and professional use. 🚀
+
+---
+
+## ✨ Features
+
+- 🌐 **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices.  
+- 🎨 **Modern UI**: Clean, interactive, and visually appealing interface using React components.  
+- 🔗 **Smooth Navigation**: Sticky navbar with smooth scrolling between sections.  
+- 🛠 **Project Showcase**: Highlight projects with images, descriptions, and live links.  
+- 💻 **Skills & Experience**: Display technical skills, work experience, and education.  
+- 📬 **Contact Section**: Includes social links and contact form integration.
+
+---
+
+## 🛠 Technologies Used
+
+- ⚛️ **React.js**  
+- 🖌 **HTML5 & CSS3**  
+- 💡 **JavaScript (ES6+)**  
+- 🎨 **React Icons**  
+- ⚡ **Optional:** Tailwind CSS / Bootstrap for styling
+
+---
+
+## 🚀 Installation
+
+1. Clone the repository:  
+```bash
+git clone https://github.com/your-username/portfolio-website.git
+Navigate to the project folder:
+
+bash
+Copy code
+cd portfolio-website
+Install dependencies:
+
+bash
+Copy code
+npm install
+Start development server:
+
+bash
+Copy code
+npm run dev
+🌍 Deployment
+Easily deploy on platforms like Vercel, Netlify, or GitHub Pages.
