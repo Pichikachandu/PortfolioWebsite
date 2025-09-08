@@ -35,7 +35,7 @@ import bsaLogo from './assets/education_logo/gtbp.png';
 import vpsLogo from './assets/education_logo/ngfs.png';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/AI-chat-Bot.png';
+import githubdetLogo from './assets/work_logo/AI-Chat-Bot.png';
 import csprepLogo from './assets/work_logo/E-commerce.png';
 import movierecLogo from './assets/work_logo/Weather-app.png';
 import taskremLogo from './assets/work_logo/Techno-web.png';
