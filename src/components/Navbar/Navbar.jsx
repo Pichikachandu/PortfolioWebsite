@@ -49,9 +49,9 @@ const Navbar = () => {
         {/* Logo */}
         <div className="text-lg font-semibold cursor-pointer">
           <span className="text-[#8245ec]">&lt;</span>
-          <span className="text-white">Yash</span>
+          <span className="text-white">Pichika</span>
           <span className="text-[#8245ec]">/</span>
-          <span className="text-white">Kathait</span>
+          <span className="text-white">Chandu</span>
           <span className="text-[#8245ec]">&gt;</span>
         </div>
 
@@ -74,7 +74,7 @@ const Navbar = () => {
         {/* Social Icons */}
         <div className="hidden md:flex space-x-4">
           <a
-            href="https://github.com/YashKathait28"
+            href="https://github.com/Pichikachandu"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-[#fff]"
@@ -82,7 +82,7 @@ const Navbar = () => {
             <FaGithub size={24} />
           </a>
           <a
-            href="https://www.linkedin.com/in/yash-kathait-b2331424b/"
+            href="https://www.linkedin.com/in/Pichika-chandu/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-[#fff]"
@@ -90,7 +90,7 @@ const Navbar = () => {
             <FaLinkedin size={24} />
           </a>
           <a
-            href="https://leetcode.com/u/yashkathait28/"
+            href="https://leetcode.com/u/chandu_8106/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#fff]"
@@ -133,7 +133,7 @@ const Navbar = () => {
             ))}
             <div className="flex space-x-4">
               <a
-                href="https://github.com/YashKathait28"
+                href="https://github.com/Pichikachandu"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white"
@@ -141,7 +141,7 @@ const Navbar = () => {
                 <FaGithub size={24} color="##e0e0e0" />
               </a>
               <a
-                href="https://www.linkedin.com/in/yash-kathait-b2331424b/"
+                href="https://www.linkedin.com/in/Pichika-chandu/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white"
@@ -149,7 +149,7 @@ const Navbar = () => {
                 <FaLinkedin size={24} color="##e0e0e0"/>
               </a>
               <a
-                href="https://leetcode.com/u/yashkathait28/"
+                href="https://leetcode.com/u/chandu_8106/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white"

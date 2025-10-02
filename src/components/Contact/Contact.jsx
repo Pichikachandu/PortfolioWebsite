@@ -11,12 +11,32 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    // Get current time for the email template
+    const currentTime = new Date().toLocaleString('en-US', {
+      weekday: 'short',
+      month: 'short',
+      day: 'numeric',
+      year: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit',
+      hour12: true
+    });
+    
+    // Create template parameters with all form data and time
+    const templateParams = {
+      name: form.current.name.value,
+      email: form.current.email.value,
+      subject: form.current.subject.value,
+      message: form.current.message.value,
+      time: currentTime
+    };
+
     emailjs
-      .sendForm(
-        "service_j8z1x1i",  // Replace with your EmailJS Service ID
-        "template_chdvzed",  // Replace with your EmailJS Template ID
-        form.current,
-        "g8HqfItOCsI6fdwht"  // Replace with your EmailJS Public Key
+      .send(
+        "service_o52vost",  // Your EmailJS Service ID
+        "template_y2vcejn",  // Your EmailJS Template ID
+        templateParams,
+        "GAfBO0tNcOTc1h5Rt"  // Your EmailJS Public Key
       )
       .then(
         () => { 
@@ -72,16 +92,16 @@ const Contact = () => {
 
         <form ref={form} onSubmit={sendEmail} className="mt-4 flex flex-col space-y-4">
           <input
-            type="email"
-            name="user_email"
-            placeholder="Your Email"
+            type="text"
+            name="name"
+            placeholder="Your Name"
             required
             className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
           />
           <input
-            type="text"
-            name="user_name"
-            placeholder="Your Name"
+            type="email"
+            name="email"
+            placeholder="Your Email"
             required
             className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
           />

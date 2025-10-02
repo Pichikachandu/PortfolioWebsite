@@ -1,6 +1,6 @@
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/LogoID.jpg';
+import profileImage from '../../assets/Pichikachandu.png';
 
 const About = () => {
   return (
@@ -17,7 +17,7 @@ const About = () => {
           </h1>
           {/* Name */}
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
-            Yash Kathait
+            Pichika Chandu
           </h2>
           {/* Skills Heading with Typing Effect */}
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
@@ -25,7 +25,7 @@ const About = () => {
             <ReactTypingEffect
               text={[
                 'Fullstack Developer',
-                'Data Analyst',
+                'Java Developer',
                 'Web Designer',
                 'Coder',
               ]}
@@ -48,7 +48,7 @@ const About = () => {
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/19tdqlFn0MThhdnE7uHulyesokr247C8b/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1-NDwsmawK21JpdoUG02X9QGbwdj-jfvx/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
@@ -74,7 +74,7 @@ const About = () => {
           >
             <img
               src={profileImage}
-              alt="Yash Kathait"
+              alt="Pichika Chandu"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />
           </Tilt>
